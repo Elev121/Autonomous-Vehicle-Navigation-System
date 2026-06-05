@@ -1,24 +1,69 @@
 # Autonomous Vehicle Navigation System
 
 ## Overview
-This project focuses on the development of an autonomous vehicle capable of basic navigation and obstacle avoidance. The system combines sensor data, AI-based decision-making, and path planning techniques to navigate its environment safely and efficiently.
 
-## Features
-- Obstacle detection and avoidance
-- Autonomous path planning
-- Real-time decision making
-- Sensor integration
-- Vehicle motion control
-- System stability optimization
+This project implements a camera-based autonomous vehicle navigation system using Python, OpenCV, and Arduino serial communication. The system is capable of detecting traffic light states, navigating through a track environment, avoiding obstacles, and generating real-time steering and speed commands.
 
-## Technologies
-- Python
-- Embedded Systems
-- AI Algorithms
-- Sensor Integration
-- Path Planning
+The project demonstrates the integration of computer vision techniques with autonomous navigation and embedded control systems.
 
-## Objectives
-- Improve autonomous navigation accuracy
-- Enhance obstacle avoidance performance
-- Develop reliable real-time decision-making capabilities
+---
+
+## Key Features
+
+* Traffic light detection (Red / Green)
+* Autonomous steering control
+* Follow-the-gap obstacle avoidance
+* Visual lane and track detection
+* Real-time vehicle decision making
+* Arduino communication for motor control
+* Debug visualization interface
+
+---
+
+## Technologies Used
+
+* Python
+* OpenCV
+* NumPy
+* PySerial
+* Arduino
+* Computer Vision
+* Autonomous Navigation
+
+---
+
+## System Workflow
+
+1. Capture video frames from the onboard camera.
+2. Detect traffic light conditions.
+3. Analyze track and obstacle information.
+4. Generate steering and speed decisions.
+5. Send commands to the vehicle controller.
+6. Continuously update navigation based on environmental conditions.
+
+---
+
+## Skills Demonstrated
+
+* Computer Vision
+* Autonomous Systems
+* Robotics
+* Embedded Systems
+* Real-Time Processing
+* Artificial Intelligence Applications
+
+---
+
+## Future Improvements
+
+* Deep learning-based object detection
+* Multi-sensor fusion
+* GPS-assisted navigation
+* Advanced path planning algorithms
+* Autonomous intersection handling
+
+---
+
+## Author
+
+Developed as part of an autonomous systems and intelligent transportation project.
